@@ -1,0 +1,15 @@
+15
+~M 2 "" 0 Calculator
+~A 0 "" 0 Calculator
+~M 0 "" 0 Prescaler
+~A 0 "" 0 Prescaler
+~M 0 "" 0 calc_logic
+~A 0 "" 0 calc_logic
+~M 2 "" 0 glbl
+~A 0 "" 0 glbl
+~M 0 "" 0 in_calc_control
+~A 0 "" 0 in_calc_control
+~M 0 "" 0 keypad_controller
+~A 0 "" 0 keypad_controller
+~M 0 "" 0 seven_seg_disp
+~A 0 "" 0 seven_seg_disp

@@ -1,0 +1,16 @@
+106
+~E 1 "../src/calc_logic.vhd" 20 calc_logic
+~A 1 "../src/calc_logic.vhd" 36 calc_logic
+~E 1 "../compile/Calculator.vhd" 27 Calculator
+~A 1 "../compile/Calculator.vhd" 45 Calculator
+~E 1 "../src/in_calc_control.vhd" 29 in_calc_control
+~A 1 "../src/in_calc_control.vhd" 42 in_calc_control
+~E 1 "../src/keypad_controller.vhd" 29 keypad_controller
+~A 1 "../src/keypad_controller.vhd" 42 keypad_controller
+~E 1 "../src/Preskaler.vhd" 19 Prescaler
+~A 1 "../src/Preskaler.vhd" 32 Prescaler
+~E 1 "../src/seven_seg_disp.vhd" 29 seven_seg_disp
+~A 1 "../src/seven_seg_disp.vhd" 42 seven_seg_disp
+~C 1 "../src/TB_in_calc_control/tutorvhdl_TB.vhd" 87 testbench_for_tutorvhdl
+~E 1 "../src/TB_calc_logic/tutorvhdl_TB.vhd" 7 tutorvhdl_tb
+~A 1 "../src/TB_in_calc_control/tutorvhdl_TB.vhd" 8 TB_ARCHITECTURE

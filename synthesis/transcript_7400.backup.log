@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb  4 18:17:46 2022
+# Process ID: 7400
+# Current directory: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/run_vivado.tcl
+# Log file: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/vivado.log
+# Journal file: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis\transcript.log
+#-----------------------------------------------------------
+source D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/run_vivado.tcl

@@ -1,0 +1,82 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Fri Feb  4 18:25:34 2022
+# Process ID: 2584
+# Current directory: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis
+# Command line: vivado.exe -mode batch -log vivado.log -journal transcript.log -source D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/run_vivado.tcl
+# Log file: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/vivado.log
+# Journal file: D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis\transcript.log
+#-----------------------------------------------------------
+source D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/synthesis/run_vivado.tcl
+# create_project -force Calculator {D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\synthesis} -part 7a100tcsg324-1
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/keypad_controller.vhd}
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/in_calc_control.vhd}
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd}
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd}
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd}
+# add_files -norecurse {D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/Preskaler.vhd}
+# set_property top Calculator [current_fileset]
+# set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
+# synth_design -top Calculator -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive default -resource_sharing auto -control_set_opt_threshold auto
+Command: synth_design -top Calculator -flatten_hierarchy rebuilt -gated_clock_conversion off -fsm_extraction auto -bufg 12 -fanout_limit 10000 -shreg_min_size 3 -max_bram -1 -max_uram -1 -max_dsp -1 -max_bram_cascade_height -1 -max_uram_cascade_height -1 -cascade_dsp auto -directive default -resource_sharing auto -control_set_opt_threshold auto
+Starting synth_design
+Using part: xc7a100tcsg324-1
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14352 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 692.492 ; gain = 179.008
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2040] formal port column of mode buffer cannot be associated with actual port column of mode out [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'Calculator' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:45]
+INFO: [Synth 8-3491] module 'Prescaler' declared at 'D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/Preskaler.vhd:19' bound to instance 'U2' of component 'Prescaler' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Prescaler' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/Preskaler.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'Prescaler' (1#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/Preskaler.vhd:32]
+INFO: [Synth 8-3491] module 'in_calc_control' declared at 'D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/in_calc_control.vhd:29' bound to instance 'U3' of component 'in_calc_control' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'in_calc_control' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/in_calc_control.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'in_calc_control' (2#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/in_calc_control.vhd:42]
+INFO: [Synth 8-3491] module 'keypad_controller' declared at 'D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/keypad_controller.vhd:29' bound to instance 'U4' of component 'keypad_controller' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:137]
+INFO: [Synth 8-638] synthesizing module 'keypad_controller' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/keypad_controller.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'keypad_controller' (3#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/keypad_controller.vhd:42]
+INFO: [Synth 8-3491] module 'seven_seg_disp' declared at 'D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd:29' bound to instance 'U8' of component 'seven_seg_disp' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:147]
+INFO: [Synth 8-638] synthesizing module 'seven_seg_disp' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd:42]
+INFO: [Synth 8-226] default block is never used [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd:66]
+INFO: [Synth 8-226] default block is never used [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'seven_seg_disp' (4#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/seven_seg_disp.vhd:42]
+INFO: [Synth 8-3491] module 'calc_logic' declared at 'D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:20' bound to instance 'U9' of component 'calc_logic' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'calc_logic' [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:36]
+WARNING: [Synth 8-614] signal 'pierwsza_licza' is read in the process but is not in the sensitivity list [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:64]
+WARNING: [Synth 8-614] signal 'druga_liczba' is read in the process but is not in the sensitivity list [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:64]
+WARNING: [Synth 8-614] signal 'liczba_dodawania' is read in the process but is not in the sensitivity list [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:64]
+WARNING: [Synth 8-614] signal 'liczba_odejmowania' is read in the process but is not in the sensitivity list [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'calc_logic' (5#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/src/calc_logic.vhd:36]
+INFO: [Synth 8-256] done synthesizing module 'Calculator' (6#1) [D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/compile/Calculator.vhd:45]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 755.691 ; gain = 242.207
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 755.691 ; gain = 242.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 755.691 ; gain = 242.207
+---------------------------------------------------------------------------------
+couldn't read file "C:/Xilinx/Vivado/2019.1/scripts/rt/fpga_tcl/rtSynthCleanup.tcl": no such file or directory
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 5 Warnings, 0 Critical Warnings and 1 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Fri Feb  4 18:25:45 2022...

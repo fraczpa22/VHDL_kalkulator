@@ -1,0 +1,13 @@
+37
+~E 0 "" 0 calc_logic
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 Calculator
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 in_calc_control
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 keypad_controller
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 Prescaler
+~A 0 "" 0 STRUCTURE
+~E 0 "" 0 seven_seg_disp
+~A 0 "" 0 STRUCTURE

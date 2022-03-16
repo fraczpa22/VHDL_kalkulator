@@ -1,0 +1,6 @@
+i<>.\src\keypad_controller.vhd
+i<>.\src\in_calc_control.vhd
+i<>.\src\Calculator.bde
+i<>.\src\seven_seg_disp.vhd
+i<>.\src\calc_logic.vhd
+i<>.\src\Preskaler.vhd

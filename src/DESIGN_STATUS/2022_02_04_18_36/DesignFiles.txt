@@ -1,0 +1,40 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : List of design files displayed in Active-HDL Design Browser
+-- Active-HDL : 11.1.262.7351
+-- Workspace  : TutorVHDL
+-- Design     : TutorVHDL
+-- Author     : frani
+-- Company    : AGH
+-- Date       : 2022-02-04 18:36:50
+--
+-------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+File                    | Comp. | File Status | Design Folder        | File Path
+                        | Order |             |                      |
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+keypad_controller.vhd   |     1 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\keypad_controller.vhd
+seven_seg_disp.vhd      |     2 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\seven_seg_disp.vhd
+Preskaler.vhd           |     3 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\Preskaler.vhd
+calc_logic.vhd          |     4 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\calc_logic.vhd
+in_calc_control.vhd     |     5 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\in_calc_control.vhd
+TutorVHDL.xdc           |       | Modified    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TutorVHDL.xdc
+TutorVHDL.asdb          |       | Modified    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TutorVHDL.asdb
+TutorVHDL.awc           |       | Modified    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TutorVHDL.awc
+Calculator.bde          |     6 | Compiled    |                      | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\Calculator.bde
+tutorvhdl_TB.vhd        |     7 | Compiled    | TB_calc_logic        | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_calc_logic\tutorvhdl_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_calc_logic        | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_calc_logic\tutorvhdl_TB_runtest.do
+tutorvhdl_TB.vhd        |     8 | Warning     | TB_7_seg_disp        | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_7_seg_disp\tutorvhdl_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_7_seg_disp        | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_7_seg_disp\tutorvhdl_TB_runtest.do
+tutorvhdl_TB.vhd        |     9 | Error       | TB_keypad_controller | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_keypad_controller\tutorvhdl_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_keypad_controller | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_keypad_controller\tutorvhdl_TB_runtest.do
+tutorvhdl_TB.vhd        |    10 | Warning     | TB_in_calc_control   | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_in_calc_control\tutorvhdl_TB.vhd
+tutorvhdl_TB_runtest.do |       | Modified    | TB_in_calc_control   | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\src\TB_in_calc_control\tutorvhdl_TB_runtest.do
+Calculator.edn          |       | Modified    | post-synthesis       | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\synthesis\Calculator.edn
+Calculator.vhd          |    11 | Modified    | post-synthesis       | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\synthesis\Calculator.vhd
+Calculator.v            |    12 | Modified    | timing               | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\implement\Calculator.v
+Calculator.sdf          |       | Modified    | timing               | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\implement\Calculator.sdf
+glbl.v                  |    13 | Modified    | timing               | D:\AGH\PSC\Projekt_dopoprwy_2\TutorVHDL\implement\glbl.v
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+

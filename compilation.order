@@ -1,0 +1,13 @@
+.\src\keypad_controller.vhd
+.\src\seven_seg_disp.vhd
+.\src\Preskaler.vhd
+.\src\calc_logic.vhd
+.\src\in_calc_control.vhd
+.\src\Calculator.bde
+.\src\TB_calc_logic\tutorvhdl_TB.vhd
+.\src\TB_7_seg_disp\tutorvhdl_TB.vhd
+.\src\TB_keypad_controller\tutorvhdl_TB.vhd
+.\src\TB_in_calc_control\tutorvhdl_TB.vhd
+.\synthesis\Calculator.vhd
+.\implement\Calculator.v
+.\implement\glbl.v

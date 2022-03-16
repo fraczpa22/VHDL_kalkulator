@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+--
+-- Title      : Design Flow Manager settings and simulation libraries
+-- Active-HDL : 11.1.262.7351
+-- Workspace  : TutorVHDL
+-- Design     : TutorVHDL
+-- Author     : frani
+-- Company    : AGH
+-- Date       : 2022-02-04 18:36:50
+--
+-------------------------------------------------------------------------------
+1. Design Flow Manager Settings
+------------------------------------------------------------------------------------
+Language           | VHDL
+Flow Type          | HDL
+C Synthesis        | <none>  
+HDL Synthesis      | Xilinx Vivado 2019.1 Synthesis C:\Xilinx\Vivado\2019.1\bin
+Physical Synthesis | <none>  
+Implementation     | Xilinx Vivado 2019.1 Implementation C:\Xilinx\Vivado\2019.1\bin
+Family Name        | Xilinx2019x ARTIX7
+------------------------------------------------------------------------------------
+
+2. Working Library: TutorVHDL
+Active-HDL 11.1.262.7351 2022-02-04 17:03:15
+
+Elaboration top modules:
+Architecture                  seven_seg_disp(seven_seg_disp)
+
+
+---------------------------------------------------------------------------------------------------
+Entity         | Architecture   | Library   | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+seven_seg_disp | seven_seg_disp | tutorvhdl |      | 11.1.262.7351 (Windows) | -dbg
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+VHDL Package                    | Library   | Info | Compiler Version        | Compilation Options
+---------------------------------------------------------------------------------------------------
+standard                        | std       |      |                         | <unavailable>
+TEXTIO                          | std       |      |                         | <unavailable>
+std_logic_1164                  | ieee      |      |                         | <unavailable>
+std_logic_arith                 | ieee      |      |                         | <unavailable>
+STD_LOGIC_UNSIGNED              | ieee      |      |                         | <unavailable>
+---------------------------------------------------------------------------------------------------
+
+---------------------------------------------------------------------------------------------------
+Library                         | Comment
+---------------------------------------------------------------------------------------------------
+ieee                            | Standard IEEE packages library
+std                             | Standard VHDL library
+tutorvhdl                       | None
+---------------------------------------------------------------------------------------------------
+
+3. Working Library: TutorVHDL_post_synthesis
+No Simulation Report.
+
+4. Working Library: TutorVHDL_timing
+No Simulation Report.
+
+

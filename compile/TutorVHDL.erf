@@ -1,0 +1,60 @@
+MESSAGE "Pass 1. Scanning modules hierarchy."
+BEGINPROGRESS Compiling...
+UPDATEPROGRESS 17
+UPDATEPROGRESS 35
+WARNING VCP2515 "Undefined module: IBUF was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 92  22
+WARNING VCP2515 "Undefined module: BUFG was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 98  28
+WARNING VCP2515 "Undefined module: OBUF was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 104  24
+WARNING VCP2515 "Undefined module: LUT2 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 572  35
+WARNING VCP2515 "Undefined module: FDCE was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 910  35
+WARNING VCP2515 "Undefined module: CARRY4 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 918  124
+WARNING VCP2515 "Undefined module: LUT3 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 1893  40
+WARNING VCP2515 "Undefined module: LUT6 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 1903  23
+WARNING VCP2515 "Undefined module: LUT4 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 1931  49
+WARNING VCP2515 "Undefined module: LUT5 was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 2345  44
+WARNING VCP2515 "Undefined module: LDCE was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 2746  30
+WARNING VCP2515 "Undefined module: FDRE was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 3502  19
+WARNING VCP2515 "Undefined module: FDPE was used. Port connection rules will not be checked at such instantiations." "D:/AGH/PSC/Projekt_dopoprwy_2/TutorVHDL/implement/Calculator.v" 3767  19
+MESSAGE "Pass 2. Processing instantiations."
+UPDATEPROGRESS 36
+UPDATEPROGRESS 37
+UPDATEPROGRESS 38
+UPDATEPROGRESS 39
+UPDATEPROGRESS 40
+UPDATEPROGRESS 41
+UPDATEPROGRESS 42
+UPDATEPROGRESS 43
+UPDATEPROGRESS 45
+MESSAGE "Pass 3. Processing behavioral statements."
+UPDATEPROGRESS 52
+UPDATEPROGRESS 59
+UPDATEPROGRESS 66
+UPDATEPROGRESS 73
+UPDATEPROGRESS 80
+MESSAGE "Running Optimizer."
+MESSAGE "ELB/DAG code generating."
+UPDATEPROGRESS 81
+UPDATEPROGRESS 82
+UPDATEPROGRESS 83
+UPDATEPROGRESS 84
+UPDATEPROGRESS 85
+UPDATEPROGRESS 86
+UPDATEPROGRESS 87
+UPDATEPROGRESS 88
+UPDATEPROGRESS 89
+UPDATEPROGRESS 90
+UPDATEPROGRESS 91
+UPDATEPROGRESS 92
+UPDATEPROGRESS 93
+UPDATEPROGRESS 94
+UPDATEPROGRESS 95
+UPDATEPROGRESS 96
+UPDATEPROGRESS 97
+UPDATEPROGRESS 98
+MESSAGE "Unit top modules: Calculator glbl."
+MESSAGE "$root top modules: Calculator glbl."
+UPDATEPROGRESS 100
+ENDPROGRESS Compiling...
+SUCCESS "Compile success 0 Errors 13 Warnings  Analysis time: 0[s]."
+WARNING ALOG: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "done"
